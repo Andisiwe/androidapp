@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:PlaceOrder="http://schemas.android.com/apk/res-auto">
+    <!--  xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".PlaceOrder">-->
+    <item android:id="@+id/pizzaname"
+          android:title="Pizza Name"
+          PlaceOrder:showAsAction="ifRoom" >
+        <menu>
+            <item android:id="@+id/chickenpizza"
+                  android:title="Chicken Pizza"/>
+            <item android:id="@+id/lambpizza"
+                  android:title="Lamb Pizza"/>
+            <item android:id="@+id/magaritapizza"
+                  android:title="Magarita Pizza"/>
+        </menu>
+    </item>
+    <item android:id="@+id/pizzasize"
+          android:title="Pizza Size"
+          PlaceOrder:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/large"
+                  android:title="Large"/>
+            <item android:id="@+id/medium"
+                  android:title="Medium"/>
+            <item android:id="@+id/small"
+                  android:title="Small"/>
+        </menu>
+    </item>
+    <item android:id="@+id/topping"
+          android:title="Topping"
+          PlaceOrder:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/mushroom"
+                  android:title="Fresh Mushroom"/>
+            <item android:id="@+id/pineapple"
+                  android:title="Pine Apple"/>
+            <item android:id="@+id/garlic"
+                  android:title="Roasted Garlic"/>
+        </menu>
+    </item>
+
+
+</menu>
